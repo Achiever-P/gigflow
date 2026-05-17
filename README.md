@@ -2,6 +2,11 @@
 
 A full-stack Lead Management Dashboard built using the MERN stack (MongoDB, Express, React, Node.js) and TypeScript. Designed with clean architecture, scalable code practices, and a professional user experience.
 
+## 🚀 Live Demo
+- **Frontend (Vercel)**: [https://gigflow-frontend.vercel.app](https://gigflow-frontend.vercel.app) *(Update this with your actual Vercel URL)*
+- **Backend API (Render)**: [https://gigflow-esax.onrender.com](https://gigflow-esax.onrender.com)
+- **API Documentation**: See `API_DOCS.md` in the root directory.
+
 ## Features
 
 - **Authentication & RBAC**: Secure JWT-based authentication with `bcrypt` password hashing. Role-Based Access Control supports Admin and Sales User roles.
