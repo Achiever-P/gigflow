@@ -96,12 +96,6 @@ export const updateLead = async (req: AuthRequest, res: Response, next: NextFunc
       throw new Error('Lead not found');
     }
 
-    // Optional: Only allow Admin or assigned Sales User to update
-    // if (req.user?.role !== 'Admin' && lead.assignedTo?.toString() !== req.user?._id.toString()) {
-    //   res.status(403);
-    //   throw new Error('Not authorized to update this lead');
-    // }
-
     Object.assign(lead, parsed);
     const updatedLead = await lead.save();
     res.json(updatedLead);
